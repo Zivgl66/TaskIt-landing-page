@@ -8,7 +8,7 @@ const FeatureBox = (props) => {
       </div>
       <div className="s-b-text">
         <h2>{props.title}</h2>
-        <p>Lorem ipsum dolor sit amet.</p>
+        <p>{props.details}</p>
       </div>
     </div>
   );

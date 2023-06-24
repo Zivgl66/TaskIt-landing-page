@@ -31,7 +31,7 @@ const Navbar = () => {
 
   return (
     <nav className={nav ? "nav active" : "nav"}>
-      <a href="" className="logo">
+      <a href="#main" className="logo">
         <img src={logo} alt="logo of the app" />
         <span className="nav-title">TaskIt</span>
       </a>
@@ -55,7 +55,9 @@ const Navbar = () => {
           <a href="#presentation">UI SS</a>
         </li>
         <li>
-          <a href="#contact">Download</a>
+          <a href="https://ufile.io/ms8wcr9e" target="_blank">
+            Download
+          </a>
         </li>
       </ul>
     </nav>

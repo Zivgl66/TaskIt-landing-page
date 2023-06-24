@@ -9,12 +9,17 @@ const About = (props) => {
       <div className="about-text">
         <h2>{props.title}</h2>
         <p>
-          Lorem ipsum dolor sit amet consectetur adipisicing elit. Deserunt
-          ullam voluptatum et neque nam ea unde dolorum possimus non, voluptas,
-          pariatur, sit illum distinctio doloremque eius consequatur dolore rem
-          exercitationem?
+          Never miss a deadline again with our built-in reminder feature. TaskIt
+          will send you timely notifications, ensuring that you stay on track
+          and accomplish your goals efficiently.
         </p>
-        <button>{props.button}</button>
+        <button
+          onClick={() => {
+            window.open("https://ufile.io/ms8wcr9e", "_blank");
+          }}
+        >
+          {props.button}
+        </button>
       </div>
     </div>
   );

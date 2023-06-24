@@ -8,9 +8,21 @@ const Feature = () => {
   return (
     <div id="features">
       <div className="a-container">
-        <FeatureBox image={featureImage1} title={"Development course"} />
-        <FeatureBox image={featureImage2} title={"Development course"} />
-        <FeatureBox image={featureImage3} title={"Development course"} />
+        <FeatureBox
+          image={featureImage1}
+          title={"Seamless Organization"}
+          details={"Effortlessly manage tasks"}
+        />
+        <FeatureBox
+          image={featureImage2}
+          title={"Timely Reminders"}
+          details={"Stay on top of your schedule"}
+        />
+        <FeatureBox
+          image={featureImage3}
+          title={"Customizable Experience"}
+          details={"Personalize your productivity"}
+        />
       </div>
     </div>
   );

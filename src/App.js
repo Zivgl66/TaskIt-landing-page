@@ -18,11 +18,11 @@ function App() {
         button={"Get The App"}
       />
       <Presentation />
-      <About
+      {/* <About
         image={aboutImage1}
         title={"Download and get the App now!"}
         button={"Download"}
-      />
+      /> */}
       <Contact />
     </div>
   );

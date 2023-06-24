@@ -9,6 +9,7 @@ body {
 }
 * {
   box-sizing: border-box;
+  scroll-behavior: smooth;
 }
 ul {
   list-style: none;
@@ -87,6 +88,8 @@ nav .menu-btn,
 }
 .nav-title {
   font-size: 36px;
+  color: #00b7ff;
+  font-weight: bold;
 }
 .name {
   font-family: "Montserrat";
@@ -187,6 +190,9 @@ nav .menu-btn,
   color: #ffffff;
   background-color: #00b7ff;
 }
+.about-text button:hover {
+  cursor: pointer;
+}
 .contact-button {
   margin-top: 20px;
   width: 140px;
@@ -214,6 +220,7 @@ nav .menu-btn,
 }
 .about-image img {
   width: 600px;
+  height: 100%;
 }
 
 #features {
