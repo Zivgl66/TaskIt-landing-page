@@ -6,6 +6,7 @@ import Contact from "./components/Contact";
 import Presentation from "./components/Presentation";
 import aboutImage from "./assets/images/Frame 19.png";
 import aboutImage1 from "./assets/images/download.png";
+import aboutImage2 from "./assets/mockups/background4.png";
 
 function App() {
   return (
@@ -13,7 +14,7 @@ function App() {
       <Header />
       <Feature />
       <About
-        image={aboutImage}
+        image={aboutImage2}
         title={"Change your day, start tasking now!"}
         button={"Get The App"}
       />

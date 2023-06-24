@@ -34,7 +34,8 @@ input {
   position: relative;
   background-repeat: no-repeat;
   background-size: cover;
-  background-image: url("./assets/images/background.png");
+  background-image: url("./assets/mockups/background5.png");
+  /* background-image: url("./assets/images/background.png"); */
 }
 nav {
   display: flex;
@@ -96,14 +97,15 @@ nav .menu-btn,
   width: 500px;
   position: absolute;
   left: 22%;
-  top: 50%;
+  top: 45%;
   transform: translate(-22%, -50%);
 }
 .name span {
   color: #00b7ff;
 }
 .name .details {
-  color: #7e7e7e;
+  color: #202020;
+  /* margin-top: -5px; */
 }
 .name h1 {
   font-family: "Montserrat";
@@ -273,11 +275,12 @@ nav .menu-btn,
 #presentation {
   padding-top: 30px;
   width: 100%;
-  height: 820px;
+  height: 850px;
   position: relative;
   background-repeat: no-repeat;
   background-size: cover;
-  background-image: url(assets/images/presentation.png);
+  background-image: url(assets/mockups/background6.jpg);
+  /* background-image: url(assets/images/presentation.png); */
   text-align: center;
 }
 #presentation h1 {
