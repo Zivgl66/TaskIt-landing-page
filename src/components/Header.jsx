@@ -10,7 +10,8 @@ const Header = () => {
           <span>TaskIt</span> The ultimate productivity companion
         </h1>
         <p className="details">
-          here to revolutionize the way you manage your to-do lists
+          here to revolutionize the way you manage your to-do lists (Android
+          only)
         </p>
         <a href="https://ufile.io/ms8wcr9e" target="_blank" className="cv-btn">
           Download
