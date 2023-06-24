@@ -4,6 +4,7 @@ import logo from "../assets/images/appLogo.png";
 const Navbar = () => {
   const [nav, setNav] = useState(false);
   const [y, setY] = useState(window.scrollY);
+  const [isHSection, setIsHSection] = useState(true);
 
   //Check if user is scrolling down or up (if down, show the navbar)
   const handleNavigation = useCallback(
@@ -14,6 +15,8 @@ const Navbar = () => {
       } else if (y < window.scrollY && window.scrollY >= 50) {
         setNav(true);
       }
+      if (window.scrollY > 550) setIsHSection(false);
+      if (window.scrollY < 550) setIsHSection(true);
       setY(window.scrollY);
     },
     [y]
@@ -41,7 +44,7 @@ const Navbar = () => {
       </label>
       <ul className="menu">
         <li>
-          <a href="#main" className="active">
+          <a href="#main" className={isHSection ? "active" : ""}>
             Home
           </a>
         </li>
