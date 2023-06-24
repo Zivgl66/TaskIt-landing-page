@@ -194,7 +194,7 @@ nav .menu-btn,
   cursor: pointer;
 }
 .contact-button {
-  margin-top: 20px;
+  font-size: 18px;
   width: 140px;
   height: 45px;
   border-radius: 10px;
@@ -203,6 +203,10 @@ nav .menu-btn,
   color: #00b7ff;
   background-color: #ffffff;
   margin: 20px;
+  display: flex;
+  align-items: center;
+  padding: 22px;
+  justify-content: center;
 }
 .contact-button:hover {
   cursor: pointer;
