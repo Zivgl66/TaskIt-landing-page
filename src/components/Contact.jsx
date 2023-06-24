@@ -21,7 +21,7 @@ const Contact = () => {
           className="contact-button"
           onClick={() => window.open("https://github.com/Zivgl66", "_blank")}
         >
-          <BsGithub size={"2rem"} />
+          <BsGithub size={"1.5rem"} />
           GitHub
         </button>
 
