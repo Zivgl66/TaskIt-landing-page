@@ -32,7 +32,7 @@ const Navbar = () => {
   return (
     <nav className={nav ? "nav active" : "nav"}>
       <a href="" className="logo">
-        <img src={logo} alt="logo" />
+        <img src={logo} alt="logo of the app" />
         <span className="nav-title">TaskIt</span>
       </a>
       <input type="checkbox" className="menu-btn" id="menu-btn" />
