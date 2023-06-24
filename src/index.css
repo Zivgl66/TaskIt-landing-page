@@ -283,6 +283,9 @@ nav .menu-btn,
   /* background-image: url(assets/images/presentation.png); */
   text-align: center;
 }
+.presentation-image {
+  display: none;
+}
 #presentation h1 {
   font-size: 2rem;
 }
@@ -503,7 +506,19 @@ nav .menu-btn,
     margin-bottom: 100px;
   }
   #presentation {
-    display: none;
+    background-image: none;
+    background-size: contain;
+    height: 400px;
+  }
+  .presentation-image {
+    display: block;
+    width: 80%;
+    margin-left: 50px;
+    height: 200px;
+  }
+  .contact-button {
+    margin: 5px;
+    width: 120px;
   }
 }
 @media (max-width: 600px) {

@@ -1,4 +1,5 @@
 import React from "react";
+import background from "../assets/mockups/background6.jpg";
 
 const Presentation = () => {
   return (
@@ -8,6 +9,7 @@ const Presentation = () => {
         We understand the importance of personalization, which is why TaskIt
         allows you to tailor the app to your unique needs.
       </p>
+      <img src={background} className="presentation-image" />
     </div>
   );
 };
