@@ -604,11 +604,8 @@ nav .menu-btn,
     width: 100%;
     height: 400px;
   }
-  .contact-button {
-    font-size: 12px;
+  .contact-container {
     flex-direction: column;
-    width: 70px;
-    height: 80px;
-    margin: 5px;
+    height: 220px;
   }
 }
