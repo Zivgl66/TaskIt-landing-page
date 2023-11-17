@@ -15,7 +15,7 @@ const About = (props) => {
         </p>
         <button
           onClick={() => {
-            window.open("https://ufile.io/ms8wcr9e", "_blank");
+            window.open("https://www.file.io/zwyE/download/YKCixhOiAWPG", "_blank");
           }}
         >
           {props.button}
