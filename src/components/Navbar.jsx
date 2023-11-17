@@ -58,7 +58,7 @@ const Navbar = () => {
           <a href="#contact">Contact</a>
         </li>
         <li>
-          <a href="https://ufile.io/ms8wcr9e" target="_blank">
+          <a href="https://www.file.io/zwyE/download/YKCixhOiAWPG" target="_blank">
             Download
           </a>
         </li>
