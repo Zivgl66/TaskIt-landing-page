@@ -13,7 +13,7 @@ const Header = () => {
           here to revolutionize the way you manage your to-do lists (Android
           only)
         </p>
-        <a href="https://ufile.io/ms8wcr9e" target="_blank" className="cv-btn">
+        <a href="https://www.file.io/zwyE/download/YKCixhOiAWPG" target="_blank" className="cv-btn">
           Download
         </a>
       </div>
